@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    font-family: 'Nunito Sans';
+}
+.c-site-header{
+    background-color: #3C6E71;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    }
+
+    .nav-container{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+.avatar {
+    background-image: url("images/IMG-2139 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+   }
+
+   .nav-container a {
+    color: #FFFFFF;
+    display: inline-flex;
+    flex-direction: row ;
+    padding-left:20px ; 
+    text-decoration: none;
+    }
+
+    /* about-me */
+    .container{
+        height: 400px;   
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20vw;
+    }
+
+    #home{
+        background-color: #D9D9D9;
+     
+ }
+ 
+ .home-text{
+     width: 550px;
+     padding-left: 20px;
+        
+ }
+ 
+ 
+ .pfp img{
+     border-radius: 800px;
+     width: 300px;
+     height: 300px;
+ }
+
+/* work-grid-css */
+
+#WorkGrid{
+    margin: 0px 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px 300px 300px ;
+    grid-template-areas: 
+    "hometown hometown"
+    "accessibility hobbies "
+    "UX-CSS APIs"
+    ;
+}
+
+#hometown{
+    grid-area:hometown;
+    background-image: url("images/JS61049719.webp") ;
+}
+#accessibility{
+    grid-area: accessibility;
+    background-image: url("images/accessibility.jpg") ;
+}
+#hobbies{
+    grid-area:hobbies;
+    background-image:url("images/RealMadrid.jpg") ;
+}
+#UX-CSS{
+    grid-area:UX-CSS;
+    background-image:url("images/UX-CSS.jpg") ;
+}
+#APIs{
+    grid-area:APIs;
+    background-image:url("images/API.png") ;
+}
+
+.WorkGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+  }
+
+  .heading {
+    background-color: rgba(0,0,0,0.7);
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    border-bottom: 5px solid #284b63;
+  }
+  .heading h4{
+    margin-bottom: 0px;
+  }
+/* contact css */
+
+
+  
+  .c-site-footer{
+    background-color: #3C6E71; 
+    width: 100%;
+    height: 50px;  
+    color: #FFFFFF;  
+    display: flex;   
+    justify-content: center;
+           
+    }
+    .c-site-footer p{
+        padding: 7px;
+
+    }
