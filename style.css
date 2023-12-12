@@ -79,7 +79,7 @@ body{
 
 #hometown{
     grid-area:hometown;
-    background-image: url("images/JS61049719.webp") ;
+    background-image: url("images/unnamed.jpg") ;
 }
 #accessibility{
     grid-area: accessibility;
@@ -117,6 +117,13 @@ body{
   }
   .heading h4{
     margin-bottom: 0px;
+  }
+ #WorkGrid a{
+    color: #FFFFFF;
+    text-decoration:none;
+    border:5px #284b63 solid;
+    border-radius: 10px;
+    padding: 5px;
   }
 /* contact css */
 .subheading{
