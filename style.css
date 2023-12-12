@@ -119,8 +119,55 @@ body{
     margin-bottom: 0px;
   }
 /* contact css */
+.subheading{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+ font-size: 20px;
+}
 
+#contactgrid{
+    margin: 2px 0% 5px;
+    display: grid;
+    padding-left: 20px;
+    justify-content: center;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-areas: 
+    "phone email Linekdin ";
 
+}
+
+#phone{
+    grid-area: phone;
+    background-image:url("images/phone.jpg") ;
+}
+#email{
+    grid-area:email ;
+    background-image:url("images/email.jpg") ;
+}
+#Linekdin{
+    grid-area:Linekdin ;
+    background-image:url("images/linkedin.jpg") ;
+}
+
+.contact {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    height: 200px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+  }
+
+  .contact-heading{
+    color: #353535;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    font-weight: bold;
+
+  }
   
   .c-site-footer{
     background-color: #3C6E71; 
@@ -135,3 +182,10 @@ body{
         padding: 7px;
 
     }
+
+    @media only screen and (max-width: 800px) {
+        #WorkGrid{
+        background-color: lightblue;
+        position: static;
+        }
+        }
